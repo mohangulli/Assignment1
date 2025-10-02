@@ -8,6 +8,7 @@ if(!token)
 {
     return res.status(401).json({error:"Unauthorizex :no Token Provided"})
 }
+//
 // const decoded=jwt.verify(token,process.env.JWT_SECRET);
 const decoded = jwt.verify(token, process.env.JWT_SECRET);
 

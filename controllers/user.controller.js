@@ -5,7 +5,7 @@ export const deleteUserByUsername = async (req, res) => {
   try {
     const { username } = req.params;
 
-    
+  //
     const user = await User.findOne({ username });
 
     if (!user) {

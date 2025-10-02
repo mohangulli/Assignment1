@@ -8,7 +8,6 @@ router.post('/tasks', taskController.addTask);
 
 // Delete a Task
 router.delete('/tasks/:id', taskController.deleteTask);
-
 // Update a Task
 router.put('/tasks/:id', taskController.updateTask);
 
